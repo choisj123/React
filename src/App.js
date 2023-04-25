@@ -37,8 +37,8 @@ function App() {
     {id: 4, title:'java', body: 'java is...'}
   ]
   return (
-    <div className="WEB">
-      <Header title="REACT"></Header>
+    <div>
+      <Header title="WEB"></Header>
       <Nav topics={topics}></Nav>
       <Article title="Welcome" body="Hello, WEB"></Article>
     </div>
